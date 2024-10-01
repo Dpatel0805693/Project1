@@ -1,0 +1,37 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 2em;
+    color: #555;
+  }
+  
+  .logo span {
+    color: #A1C6EA;
+  }
+  
+  .navigation {
+    margin-left: -300px;
+  }
+  
+  .navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+  }
+  
+  .navigation a:hover {
+    color: #A1C6EA;
+  }  
