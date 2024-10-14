@@ -10,21 +10,44 @@ const ContactForm = () => {
     message: '',
   });
 
+  const [errors, setErrors] = useState({});
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
+  const validateForm = () => {
+    const newErrors = {};
+
+    const mobileRegex = /^\d{10}$/;
+    if (!mobileRegex.test(formData.mobile)) {
+      newErrors.mobile = 'Mobile number must be exactly 10 digits';
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      newErrors.email = 'Invalid email format';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
-    setFormData({
-      name: '',
-      mobile: '',
-      email: '',
-      subject: '',
-      message: '',
-    });
+
+    if (validateForm()) {
+      console.log(formData);
+      setFormData({
+        name: '',
+        mobile: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
+      setErrors({});
+    }
   };
 
   return (
@@ -51,6 +74,7 @@ const ContactForm = () => {
           onChange={handleChange}
           required
         />
+        {errors.mobile && <p className="error">{errors.mobile}</p>}
       </div>
 
       <div className="form-group">
@@ -63,6 +87,7 @@ const ContactForm = () => {
           onChange={handleChange}
           required
         />
+        {errors.email && <p className="error">{errors.email}</p>}
       </div>
 
       <div className="form-group">
