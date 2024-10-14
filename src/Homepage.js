@@ -44,7 +44,7 @@ const Homepage = () => {
               </span>
             </h2>
             <h4>Frontend Developer</h4>
-            <p>I'm Ava, a passionate full stack developer with a love for creating new and engaging web pages. With a background in design and coding, I enjoy turning complex problems into simple, beautiful solutions. When I'm not coding, you can find me exploring new tech trends, volunteering, or donating to charity!</p>
+            <p>I'm Ava, a passionate frontend developer with a love for creating new and engaging web pages. With a background in design and coding, I enjoy turning complex problems into simple, beautiful solutions. When I'm not coding, you can find me exploring new tech trends, volunteering, or donating to charity!</p>
           </div>
         </div>
       </section>
