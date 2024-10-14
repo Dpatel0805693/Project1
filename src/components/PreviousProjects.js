@@ -3,7 +3,7 @@ import './PreviousProjects.css';
 
 const PreviousProjects = () => {
   return (
-    <div>
+    <div className="previous-projects-page">
       <div className="container">
         <h1>Previous Projects</h1>
 
