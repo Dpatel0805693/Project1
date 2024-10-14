@@ -1,23 +1,23 @@
-body {
+.previous-projects-page {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
 }
 
-header {
+.previous-projects-page header {
     background-color: #D0DFF1;
     padding: 10px 0;
     text-align: center;
 }
 
-header a {
+.previous-projects-page header a {
     margin: 0 20px;
     text-decoration: none;
     color: black;
 }
 
-.container {
+.previous-projects-page .container {
     max-width: 900px;
     margin: 50px auto;
     background-color: white;
@@ -25,41 +25,42 @@ header a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.previous-projects-page h1 {
     text-align: center;
     font-size: 32px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.project {
+.previous-projects-page .project {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.project img {
+.previous-projects-page .project img {
     width: 100%;
     max-width: 600px;
     height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project h2 {
+.previous-projects-page .project h2 {
     font-size: 24px;
     margin: 20px 0 10px;
 }
 
-.project p {
+.previous-projects-page .project p {
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-.project a {
+.previous-projects-page .project a {
     display: inline-block;
     color: #3498db;
     text-decoration: none;
     font-weight: bold;
 }
 
-.project a:hover {
+.previous-projects-page .project a:hover {
     text-decoration: underline;
 }
