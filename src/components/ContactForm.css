@@ -6,7 +6,8 @@
   }
   
   .contact-form div {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-right: 75px;
   }
   
   .contact-form label {
@@ -28,6 +29,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 75px;
   }
   
   .contact-form button:hover {
@@ -39,3 +41,10 @@
     font-size: 0.9em;
     margin-top: 5px;
   }
+
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
