@@ -25,7 +25,7 @@ const Homepage = () => {
       <Header />
       <section className="home">
         <div className="group">
-          <div className="profile-image">
+          <div className="profile-image3">
             <img 
               src="https://cdn.goodgallery.com/aff0103d-b383-4d77-a4d3-549a4ba909b4/t/2560/2b7bx8v5/business-headshot-photographer-professional-headshots-3.jpg" 
               alt="Profile Picture" 
@@ -44,7 +44,7 @@ const Homepage = () => {
               </span>
             </h2>
             <h4>Frontend Developer</h4>
-            <p>I'm Ava, a passionate frontend developer with a love for creating new and engaging web pages. With a background in design and coding, I enjoy turning complex problems into simple, beautiful solutions. When I'm not coding, you can find me exploring new tech trends, volunteering, or donating to charity!</p>
+            <p>I'm Ava, a passionate full stack developer with a love for creating new and engaging web . With a background in design and coding, I enjoy turning complex problems into simple, beautiful solutions. When I'm not coding, you can find me exploring new tech trends, volunteering, or donating to charity!</p>
           </div>
         </div>
       </section>
