@@ -1,0 +1,79 @@
+.about-container {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .profile-section, .education-section, .experience-section, .skills-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .profile-section {
+    background-color: #F0F4F8;
+  }
+  
+  .profile-image img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #A1C6EA;
+  }
+  
+  .profile-content h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  .profile-content h1 span {
+    font-weight: normal;
+    color: #666;
+  }
+  
+  .education-section, .experience-section {
+    background-color: #e0ebf7;
+  }
+  
+  .education-section h2, .experience-section h2, .skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .education-item, .experience-item {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-section {
+    background-color: #A1C6EA;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .skill-category {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-category h3 {
+    color: #ff6666;
+  }
+  
+  .skill-category:nth-child(2) h3 {
+    color: #ffcc00;
+  }
+  
+  .skill-category:nth-child(3) h3 {
+    color: #66b2ff;
+  }
+  
