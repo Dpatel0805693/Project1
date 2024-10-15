@@ -1,9 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, isRouteErrorResponse} from 'react-router-dom';
-import Homepage from './Homepage';
-import PreviousProjects from './components/PreviousProjects';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import ContactPage from './ContactPage';
+import Homepage from './Homepage';
+import Aboutme from './components/Aboutme';
 import Header from './components/Header';
+import PreviousProjects from './components/PreviousProjects';
 
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
       <Header />  
       <Routes>
         <Route path="/" element={<Homepage />} />
-        {/*<Route path="/about" element={< />} /> */}
+        <Route path="/about" element={<Aboutme />} /> 
         <Route path="/projects" element={<PreviousProjects />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
