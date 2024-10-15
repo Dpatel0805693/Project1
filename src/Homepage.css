@@ -6,47 +6,62 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.homepage html {
-    margin: 0;
-    padding: 0;
-    background-color: #A1C6EA;
+html, body {
+    height: 100%;
+    background-color: #A1C6EA; /* Ensure the whole page is blue */
 }
+
+.about-container {
+    padding-top: 60px; /* Adjust padding to account for navigation bar if needed */
+    background-color: #A1C6EA; /* Keep background color consistent */
+    min-height: 100vh;
+}
+
 .home {
     margin-top: 80px;
     position: relative;
     width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 6%;
 }
+
 .group {
     display: flex;
-    align-items:center;
+    align-items: center;
 }
+
 .content {
     display: block;
     color: #555;
     margin-left: 10%;
+    max-width: 600px; /* Adjust max-width to fit the content better */
 }
+
 .content h2 {
     font-size: 3em;
 }
+
 .content h2 span {
     color: #ffffff;
 }
+
 .content h4 {
     font-size: 2em;
 }
+
 .content p {
     padding: 10px 0 40px 0;
 }
+
 .social-icons {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center; /* Centers vertically */
     margin-bottom: 5%;
 }
+
 .social-icons a {
     display: inline-block;
     width: 35px;
@@ -60,16 +75,21 @@
     outline: 2px solid #ffffff;
     transition: .3s;
 }
+
 .social-icons a:hover {
+    
     transform: translateY(-5px);
 }
+
 .social-icons a i {
     color: #A1C6EA;
 }
+
 .profile-image img {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px; /* Increase the size of the image */
+    max-height: 500px;
     object-fit: cover; /* Ensures the image scales nicely */
     border: 10px solid #A1C6EA;
     outline: 20px solid #ffffff;
+    margin-top: 20px; /* Adds some spacing from the top */
 }

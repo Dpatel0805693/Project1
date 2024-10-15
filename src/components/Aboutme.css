@@ -1,5 +1,6 @@
 .about-container {
     font-family: 'Poppins', sans-serif;
+    padding-top: 60px;
   }
   
   .profile-section, .education-section, .experience-section, .skills-section {
@@ -14,6 +15,7 @@
   .profile-image img {
     width: 200px;
     height: 250px;
+    margin-top: 20px; 
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #A1C6EA;
