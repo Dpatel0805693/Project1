@@ -85,7 +85,7 @@ html, body {
     color: #A1C6EA;
 }
 
-.profile-image img {
+.profile-image3 img {
     max-width: 500px; /* Increase the size of the image */
     max-height: 500px;
     object-fit: cover; /* Ensures the image scales nicely */
